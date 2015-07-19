@@ -1,0 +1,29 @@
+###########tokenize###########
+黑龙江
+哈尔滨
+齐齐哈尔
+北京
+#######tokens2features#######
+policy 	NULL
+rawstring.start 	True
+token 	黑龙江
+pre_token 	黑龙江
+next 	{'policy': 'NULL', 'token': '\xe5\x93\x88\xe5\xb0\x94\xe6\xbb\xa8', 'pre_token': '\xe5\x93\x88\xe5\xb0\x94\xe6\xbb\xa8'}
+policy 	NULL
+token 	哈尔滨
+next 	{'policy': 'NULL', 'token': '\xe9\xbd\x90\xe9\xbd\x90\xe5\x93\x88\xe5\xb0\x94', 'pre_token': '\xe9\xbd\x90\xe9\xbd\x90\xe5\x93\x88\xe5\xb0\x94'}
+pre_token 	哈尔滨
+previous 	{'policy': 'NULL', 'rawstring.start': True, 'token': '\xe9\xbb\x91\xe9\xbe\x99\xe6\xb1\x9f', 'pre_token': '\xe9\xbb\x91\xe9\xbe\x99\xe6\xb1\x9f'}
+policy 	NULL
+token 	齐齐哈尔
+next 	{'policy': 'NULL', 'token': '\xe5\x8c\x97\xe4\xba\xac', 'pre_token': '\xe5\x8c\x97\xe4\xba\xac', 'rawstring.end': True}
+pre_token 	齐齐哈尔
+previous 	{'policy': 'NULL', 'token': '\xe5\x93\x88\xe5\xb0\x94\xe6\xbb\xa8', 'pre_token': '\xe5\x93\x88\xe5\xb0\x94\xe6\xbb\xa8'}
+policy 	NULL
+token 	北京
+pre_token 	北京
+rawstring.end 	True
+previous 	{'policy': 'NULL', 'token': '\xe9\xbd\x90\xe9\xbd\x90\xe5\x93\x88\xe5\xb0\x94', 'pre_token': '\xe9\xbd\x90\xe9\xbd\x90\xe5\x93\x88\xe5\xb0\x94'}
+#######tag#######
+sheng 	黑龙江
+shi 	哈尔滨 齐齐哈尔 北京

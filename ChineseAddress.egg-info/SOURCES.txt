@@ -1,0 +1,7 @@
+setup.py
+ChineseAddress/__init__.py
+ChineseAddress.egg-info/PKG-INFO
+ChineseAddress.egg-info/SOURCES.txt
+ChineseAddress.egg-info/dependency_links.txt
+ChineseAddress.egg-info/requires.txt
+ChineseAddress.egg-info/top_level.txt
