@@ -1,0 +1,7 @@
+*~
+*.py[co]
+*.swp
+*.dblite
+*.[oa]
+*.os
+*.so
