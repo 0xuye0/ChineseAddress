@@ -20,10 +20,10 @@ def appendListToXMLfile(labeled_list, filepath):
             collection_XML = stripFormatting(collection_XML)
 
     else:
-        # collection_tag = module.GROUP_LABEL
-        # collection_XML = etree.Element(collection_tag)
-        stderr.write("no training file found in:" , filepath)
-        return
+        collection_tag = 'ChineseAddressCollection'
+        collection_XML = etree.Element(collection_tag)
+        ##  stderr.write("no training file found in:" , filepath)
+        ##  return
 
     parent_tag = 'ChineseAddressString'
     collection_XML = appendListToXML(labeled_list, collection_XML, parent_tag)

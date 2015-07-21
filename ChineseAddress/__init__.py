@@ -18,16 +18,11 @@ from collections import OrderedDict
 #     (•ㅅ•) ||
 #     / 　 づ
 LABELS = [
-        'zizhizhou',
-        'zizhiqu',
-        'zizhixian',
-        'qi',
-        'meng',
-        'zhou',
-        'xian',
-        'qu',
-        'shi',
-        'sheng',
+        'province_name',
+        'city_name',
+        'county_name',
+        'town_name',
+        'vallage_name',
         'not'
         ] # The labels should be a list of strings
 
@@ -162,8 +157,8 @@ def tokenFeatures(token) :
     features = {   # DEFINE FEATURES HERE. some examples:
                     #'length': len(token),
                     #'case'  : casing(token),
-                    'policy' : policy_token,
-                    'pre_token' : pre_token,
+                    #'policy' : policy_token,
+                    #'pre_token' : pre_token,
                     'token' : token,
                 }
 
